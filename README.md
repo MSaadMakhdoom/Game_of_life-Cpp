@@ -1,7 +1,9 @@
 # Projects Cpp
 
  # Game of Life
-## implement a mathematical game known as “Game of Life” devised by John Conway in 1970. This zero-player game is set on a two dimensional array of cells (potentially infinite in dimensions). Each cell is either alive or dead. The game starts with an arbitrary pattern of cells set to live status.
+## implement a mathematical game known as “Game of Life” devised by John Conway in 1970. 
+
+- This zero-player game is set on a two dimensional array of cells (potentially infinite in dimensions). Each cell is either alive or dead. The game starts with an arbitrary pattern of cells set to live status.
 # Implementation rules of game:
 - If the cell is dead:
 - Birth: if exactly three of its neighbors are alive, the cell will become alive at the next step.
