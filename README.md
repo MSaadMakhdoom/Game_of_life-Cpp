@@ -5,10 +5,10 @@
 infinite in dimensions). Each cell is either alive or dead. The game starts with an arbitrary pattern of cells set to live status.
 # Implementation rules of game:
 - If the cell is dead:
-1- Birth: if exactly three of its neighbors are alive, the cell will become alive at the next step.
+-- Birth: if exactly three of its neighbors are alive, the cell will become alive at the next step.
 - If the cell is already alive:
-2- Survival: if the cell has two or three live neighbors, the cell remains alive. Otherwise, the cell will die:
-3- Death by loneliness: if the cell has only zero or one live neighbors, the cell will become dead 
+-- Survival: if the cell has two or three live neighbors, the cell remains alive. Otherwise, the cell will die:
+-- Death by loneliness: if the cell has only zero or one live neighbors, the cell will become dead 
 at the next step.
-4- Death by overcrowding: if the cell alive and has more than three live neighbors, the cell also 
+-- Death by overcrowding: if the cell alive and has more than three live neighbors, the cell also 
 dies
